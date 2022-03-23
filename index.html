@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>VNah Proyectos de Khan Academy</title>
+    <style>
+        #tituloprincipal {
+            color:white;
+            background-color: darkblue;
+        }
+
+        .container {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  padding-top: 56.25%; /* 16:9 Aspect Ratio */
+}
+
+iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+}
+
+    </style>
+</head>
+
+<body>
+    <header>
+        <div id="tituloprincipal">
+        <h1>Proyectos Khan Academy</h1>
+        <h2>Unidad: Introducción a HTML/CSS: hacer páginas web</h2>
+        </div>
+        <div>
+            <p>Proyectos realizados en el curso:</p>
+            <p><a href="Viajando.html" target="iframe_a">Introducción a CSS: Página Web de Viajes</a></p>
+            <p><a href="recetas.html" target="iframe_a">Más etiquetas HTML: Libro de Recetas</a></p>
+            <p><a href="Viajando.html" target="iframe_a">Propiedades de texto CSS: Blog</a></p>
+            <br>
+        </div>
+    </header>
+    <div class="container">
+
+    <iframe  src="Viajando.html" name="iframe_a"></iframe>
+
+    </div>
+
+    
+
+</body>
+
+</html>
